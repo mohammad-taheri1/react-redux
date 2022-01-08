@@ -1,36 +1,79 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { isPalindrome } from './palindrome';
 
-function App() {
-  console.log(isPalindrome('Level'));
-  console.log(isPalindrome('Anna'));
-  console.log(isPalindrome('Carlos'));
-  console.log(isPalindrome(101));
-  console.log(isPalindrome(true));
-  console.log(isPalindrome(flase));
+const App = () => {
+
+  // type declaration
+  type TUser = {
+    username: string
+    email: string
+    name: string
+    age?: number
+    website: string
+    active: boolean
+  }
+
+  const user: TUser = {
+    username: 'mamad_taheri',
+    email: 'mamad@mail.com',
+    name: 'Mamadddddd',
+    // age: 32,
+    website: 'irdevprogs.ir',
+    active: true
+  }
+
+    // interface declaration
+    interface IUser {
+      username: string
+      email: string
+      name: string
+      age?: number
+      website: string
+      active: boolean
+    }
+
+    // Extending an interface
+    interface IWork {
+      company: string
+      position: string
+    }
+
+    interface IPerson extends IWork {
+      name: string
+      age: number
+    }
+
+    // Extending a type
+    type TWork = {
+      company: string
+      position: string
+    }
+
+    type TPerson1 = TWork & {
+      name: string
+      age: number
+    }
+
+    // Extending an interface into a type
+    type TPerson2 = IWork & {
+      name: string
+      age: number
+    }
+
+    class Person1 implements IWork {
+      name: 'Mamad'
+      age: 32
+    }
+
+    class Person2 implements TWork {
+      name: 'Mamad'
+      age: 32
+    }
 
 
-  
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+
+
+  return ( <div> App.tsx </div> );
+};
 
 export default App;
