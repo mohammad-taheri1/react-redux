@@ -1,8 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { isPalindrome } from './palindrome';
 
 function App() {
+  console.log(isPalindrome('Level'));
+  console.log(isPalindrome('Anna'));
+  console.log(isPalindrome('Carlos'));
+  console.log(isPalindrome(101));
+  console.log(isPalindrome(true));
+  console.log(isPalindrome(flase));
+
+
+  
   return (
     <div className="App">
       <header className="App-header">
