@@ -5,7 +5,7 @@
 //     return lowerCaseWorld === reversedWord
 // }
 
-function isPalindrome(word: string): boolean {
+export function isPalindrome(word: string): boolean {
     const lowerCaseWorld = word.toLowerCase();
     const reversedWord = lowerCaseWorld.split('').reverse().join('');
 
