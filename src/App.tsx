@@ -1,35 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const App = () => {
-
-  interface IUser {
-    username: string
-    email: string
-    name: string
-    age?: number
-    website: string
-    active: boolean
+class App extends Component {
+  render() {
+    return (
+      <div>
+        App
+      </div>
+    );
   }
-
-  interface IUser {
-    country: string
-  }
-
-  const user: IUser = {
-    username: 'mamad.taheri',
-    email: 'mamad@tmail.com',
-    name: 'Mamad Taheri',
-    country: 'Iran',
-    age: 32,
-    website: 'www.test.ir',
-    active: true
-  }
-
-  return (
-    <div>
-      
-    </div>
-  );
-};
+}
 
 export default App;
