@@ -8,7 +8,9 @@ type Issue = {
     state: string
 }
 type Props = {};
-type State = { issues: Issue[]};
+type State = { 
+    issues: Issue[]
+};
 
 class Issues_Class extends Component<Props, State> {
     constructor(props: Props) {
