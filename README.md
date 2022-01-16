@@ -7,7 +7,7 @@ Design Patterns are effective solutions to common application development challe
 The Idea of Layout Components:\
 Our components should'nt know where they're being displayed. 
 
-### Titr 3
+### Lists and list items
 
 `command`
 
