@@ -1,3 +1,4 @@
+import Modal from "./01-Layout Components/Modal";
 import NumberedList from "./01-Layout Components/NumberedList";
 import LargePersonListItem from "./01-Layout Components/people/LargePersonListItem";
 import SmallPersonListItem from "./01-Layout Components/people/SmallPersonListItem";
@@ -18,28 +19,11 @@ const RightHandComponent = ({ message }) => {
 const App = () => {
   return (
     <>
-      {/* <RegularList
-        items={people}
-        resourceName="person"
-        itemComponent={SmallPersonListItem}
-      /> */}
-      <hr />
-      {/* <RegularList
-        items={people}
-        resourceName="person"
-        itemComponent={LargePersonListItem}
-      /> */}
-      <RegularList
-        items={products}
-        resourceName="product"
-        itemComponent={SmallProductListItem}
-      />
-      <hr />
-      <NumberedList
-        items={products}
-        resourceName="product"
-        itemComponent={LargeProductListItem}
-      />
+      <Modal>
+        <LargeProductListItem
+          product={products[0]}
+        />
+      </Modal>      
     </>
   );
 };
