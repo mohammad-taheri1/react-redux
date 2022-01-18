@@ -9,6 +9,8 @@ Our components should'nt know where they're being displayed.
 
 ### Lists and list items
 
+### Modal
+
 `command`
 
 newLine : => .\
