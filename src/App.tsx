@@ -1,9 +1,9 @@
-import React from 'react';
+import SideBarMenu from "./components/SideBarMenu";
 
 const App = () => {
     return (
         <div>
-            App
+            <SideBarMenu />
         </div>
     );
 };
