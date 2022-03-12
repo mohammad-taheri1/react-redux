@@ -1,16 +1,1 @@
-# React design patterns
-
-Design Patterns are effective solutions to common application development challenges.
- 
-
-## 01 - Layout Components
-The Idea of Layout Components:\
-Our components should'nt know where they're being displayed. 
-
-### Lists and list items
-
-### Modal
-
-`command`
-
-newLine : => .\
+# React with Typescript
