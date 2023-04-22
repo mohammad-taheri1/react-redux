@@ -1,5 +1,9 @@
 # React Redux
 
+## What is Redux?
+
+A Predictable State Container for JS Apps. Redux helps us to manage Global state.
+
 ## What Topics covered in this repository?
 
 -  What is Redux
@@ -12,5 +16,5 @@
 
 ## Key Points
 
--  In default Environment, Each Action Creator returns an action object
--  Using Redux-Thunk,Each Action Creator returns an async function instead of an action object
+-  In default Environment, Each Action Creator returns an action object.
+-  Using Redux-Thunk,Each Action Creator returns an async function instead of an action object.
