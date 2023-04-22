@@ -6,13 +6,26 @@ A Predictable State Container for JS Apps. Redux helps us to manage Global state
 
 ## What Topics covered in this repository?
 
--  What is Redux
--  What is Redux Middleware
--  How to config & use Redux
--  How to config & use Redux DevTools
--  How to config & use Redux Logger
--  How to config & use Redux-Thunk
--  How to config & use Redux-Saga
+-  What is
+
+   -  Redux
+   -  Action
+   -  Action Structure
+      -  type
+      -  payload
+   -  Action Creator
+   -  Reducer
+   -  Dispatch
+   -  Redux Store
+   -  Redux Provider
+   -  Redux Middleware
+
+-  How to config & use
+   -  Redux
+   -  Redux DevTools
+   -  Redux Logger
+   -  Redux-Thunk
+   -  Redux-Saga
 
 ## Key Points
 
