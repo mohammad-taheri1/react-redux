@@ -31,3 +31,11 @@ A Predictable State Container for JS Apps. Redux helps us to manage Global state
 
 -  In default Environment, Each Action Creator returns an action object.
 -  Using Redux-Thunk,Each Action Creator returns an async function instead of an action object.
+-  Using Redux-Saga, Each Action Creator returns an action object. And Thne handle them differently
+
+## Redux-Thunk
+
+## Redux-Saga
+
+-  This library uses Generator Functions.
+-  A saga is like a separate thread in your application that is solely responsible for side effects
