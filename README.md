@@ -1,4 +1,6 @@
-# React Redux
+# React Redux Repository
+
+<img src="./docs/banner.jpg" alt="banner" />
 
 ## What is Redux?
 
@@ -19,6 +21,8 @@ A Predictable State Container for JS Apps. Redux helps us to manage Global state
    -  Redux Store
    -  Redux Provider
    -  Redux Middleware
+      -  redux-thunk
+      -  redux-saga
 
 -  How to config & use
    -  Redux
